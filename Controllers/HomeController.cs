@@ -23,7 +23,7 @@ namespace Zhaoxi.NET5Project.Controllers
 
         public IActionResult Index()
         {
-            base.ViewData["User1"] = "张三-1发布新版本V0.0.1";
+            base.ViewData["User1"] = "张三-1发布新版本V0.0.3";
             base.TempData["User2"] = "李四-好了吗？";
             base.ViewBag.User3 = "王五-成功了吗？";
             object User4 = "赵六333";
